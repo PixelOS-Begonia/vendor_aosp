@@ -255,4 +255,6 @@ include vendor/aosp/config/version.mk
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
 
+$(call inherit-product, vendor/aosp/extras/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
